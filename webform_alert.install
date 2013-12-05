@@ -1,0 +1,26 @@
+<?php
+/**
+ *@file
+ *webform_alert installation file
+ */
+
+/**
+ *Implementation of hook_install().
+ */
+
+function webform_alert_install(){
+  drupal_install_schema('webform_alert');
+}
+
+/**
+ * Implementation of hook_unistall().
+ */
+function webform_alert_unistall(){
+  drupal_unistall_schema('webform_alert');
+}
+
+/**
+ * Implementation of hook_schema().
+ */
+function webform_alert_schema(){
+  $schema['webform_alert']
