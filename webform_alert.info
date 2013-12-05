@@ -1,0 +1,6 @@
+;$id: $
+name = Webform_alert
+description = Enable the administrator set the submission limit for each node using a webform
+core = 6.x
+package = Webform_alert
+php=5.x
