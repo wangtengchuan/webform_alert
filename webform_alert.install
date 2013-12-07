@@ -44,4 +44,10 @@ function webform_alert_schema(){
         'unsigned' => TRUE,
         'not null' => TRUE,
       ),
+      'submitted_number'=>array(
+        'type'=>'int',
+        'description' => 'Number that already submmited for a webform and node pair',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
 
