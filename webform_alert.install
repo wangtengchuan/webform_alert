@@ -28,13 +28,19 @@ function webform_alert_schema(){
     'fields'=>array(
       'nid'=>array(
         'type'=>'int',
-        'description' => 'Unique identifier for a rule',
+        'description' => 'Unique identifier for a node',
         'unsigned' => TRUE,
         'not null' => TRUE,
       ),
       'webformid'=>array(
         'type'=>'int',
-        'description' => 'Unique identifier for a rule',
+        'description' => 'Unique identifier for a webform',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+      'submission_limit'=>array(
+        'type'=>'int',
+        'description' => 'Submission limit for a unique webform and node pair',
         'unsigned' => TRUE,
         'not null' => TRUE,
       ),
