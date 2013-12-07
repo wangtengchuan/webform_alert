@@ -32,4 +32,10 @@ function webform_alert_schema(){
         'unsigned' => TRUE,
         'not null' => TRUE,
       ),
+      'webformid'=>array(
+        'type'=>'int',
+        'description' => 'Unique identifier for a rule',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
 
