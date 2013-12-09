@@ -51,3 +51,10 @@ function webform_alert_schema(){
         'not null' => TRUE,
       ),
 
+      'already_alert'=>array(
+        'type'=>'int',
+        'description' => 'The system has already send alert mail to warn you about the total submission',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+
